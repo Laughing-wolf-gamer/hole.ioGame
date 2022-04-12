@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1876134285015214}
+  m_IsPrefabAsset: 1
+--- !u!1 &1876134285015214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4212567798025256}
+  - component: {fileID: 114817769942080448}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4212567798025256
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876134285015214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114817769942080448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876134285015214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54bab10c29feba349b247a3dcc169e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FollowerPrefab: {fileID: 1365916644012396, guid: 59a0f19ed8e54eb408756945a1f56f2d,
+    type: 2}
+  LeaderPrefab: {fileID: 1951111509612290, guid: 6484dbb0a8357c040a6321306755eab7,
+    type: 2}
+  data:
+  - LeaderName: You
+    leaderMaterial: {fileID: 2100000, guid: 1e1c6a0a64beb49ec96272beefa468a5, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 0
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 9
+    groupColor: {r: 1, g: 0, b: 0, a: 1}
+  - LeaderName: MegaBots
+    leaderMaterial: {fileID: 2100000, guid: c07befab8ca1540368e662cfe2fddf6b, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 1
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 10
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: SureKillers
+    leaderMaterial: {fileID: 2100000, guid: 5195427c0d27644ed90d87ebe86d468a, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 2
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 11
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: Defenders
+    leaderMaterial: {fileID: 2100000, guid: 0aa37164acf594e03876b4e0b590280e, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 3
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 12
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: ByStanders
+    leaderMaterial: {fileID: 2100000, guid: ade8fca681f724cd89b5a568642f15ae, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 4
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 13
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: UnknownHero
+    leaderMaterial: {fileID: 2100000, guid: aefd7b11897a6c44eb6efb784fbc45a0, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 5
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 14
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: FairKings
+    leaderMaterial: {fileID: 2100000, guid: da5be8f4f42f47d49b9616686a03eb69, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 6
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 15
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: RealFighters
+    leaderMaterial: {fileID: 2100000, guid: 6e3711e222ed9b24b915676a5a24755f, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 7
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 16
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: NeverDies
+    leaderMaterial: {fileID: 2100000, guid: 0149e9a48a8b5d3498f56742734fa1ed, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 8
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 17
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  - LeaderName: ThumbadHeros
+    leaderMaterial: {fileID: 2100000, guid: 127f0b1b3a969b2479ef2f1809e151fb, type: 2}
+    GroupCount: 0
+    groupLeader: {fileID: 0}
+    groupId: 9
+    indicatorInstance: {fileID: 0}
+    isDead: 0
+    PhysicsLayerID: 18
+    groupColor: {r: 0, g: 0, b: 0, a: 0}
+  dataIndex: 1
+  globalFollowersLimit: 500
+  startingPeopleCount: 50
+  leaderCount: 10
+  followerMaterial: {fileID: 2100000, guid: 5b86c7123be127c4baec2313d015375c, type: 2}
+  camScript: {fileID: 0}
+  fillMaterial: {fileID: 2100000, guid: 53bf2cf8c623ecc40b1e42cd5b8239d1, type: 2}
+  sortedDataForUI: []
