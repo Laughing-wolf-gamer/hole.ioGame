@@ -18,7 +18,7 @@ public class HoleController : MonoBehaviour{
 
     public Action onSizeChange;
     public Action OnObjectFallInHole;
-    public Action onOutSideBoudary;
+    
 
     #endregion
 
@@ -37,9 +37,7 @@ public class HoleController : MonoBehaviour{
         GameHandler.i.onTimerUp += () =>{
             SetIsGameStart(false);
         };
-        onOutSideBoudary += () =>{
-            transform.position = new Vector3(20,transform.position.y,20);
-        };
+        
 
     }
     [ContextMenu("Die")]

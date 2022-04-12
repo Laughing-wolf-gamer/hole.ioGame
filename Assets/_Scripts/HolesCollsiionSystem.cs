@@ -28,7 +28,9 @@ public class HolesCollsiionSystem : MonoBehaviour{
         if(holesColider.Length > 0){
             for (int h = 0; h < holesColider.Length; h++){
                 if(holesColider[h].gameObject.CompareTag("Bourndary")){
-                    holeController.onOutSideBoudary?.Invoke();
+                    transform.position = new Vector3(20,transform.position.y,20);
+                    Debug.Log("Is Colliding Boundary");
+                    return;
                 }
                 if(holesColider[h] != myCollider){
                     HoleController holes = holesColider[h].GetComponent<HoleController>();
